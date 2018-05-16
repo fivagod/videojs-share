@@ -18,8 +18,8 @@ class ShareModal extends ModalDialog {
 
   close() {
     this.player().removeClass(this.playerClassName);
-    super.close();
     this.player().trigger('sharing:closed');
+    super.close();
   }
 }
 
