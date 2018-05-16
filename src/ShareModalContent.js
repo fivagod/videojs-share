@@ -4,6 +4,7 @@ import * as sharing from 'vanilla-sharing';
 import { isTouchDevice, filterSocials } from './utils';
 
 import fbFeed from './icons/fbFeed.svg';
+import fbButton from './icons/fbFeed.svg';
 import tw from './icons/tw.svg';
 import reddit from './icons/reddit.svg';
 import gp from './icons/gp.svg';
@@ -18,6 +19,7 @@ import viber from './icons/viber.svg';
 
 const icons = {
   fbFeed,
+  fbButton,
   tw,
   reddit,
   gp,
